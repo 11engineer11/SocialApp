@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\accounts",
+    "\\app",
+    "\\home",
+    "\\post",
+    "\\post\\migrations",
+    "\\templates",
+    "\\templates\\accounts",
+    "\\templates\\post"
+  ],
+  "SelectedNode": "\\post\\models.py",
+  "PreviewInSolutionExplorer": false
+}

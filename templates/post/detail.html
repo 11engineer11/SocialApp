@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    {{posta.id}}<br />
+    {{posta.title}}<br />
+    {{posta.content}}<br />
+    {{posta.user.get_full_name}}<br />
+    {{posta.publishing_date}}<br />
+    {%if posta.image %}
+    <img src="{{posta.image.url}}" class=" img-responsive"<br />
+    {%endif%}
+</body>
+</html>
